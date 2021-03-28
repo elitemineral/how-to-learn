@@ -7,12 +7,16 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #000;
 }
+
+/* Header */
 
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  margin-bottom: 100px;
   /* выше установили ограничения для секции */
 
   display: flex;
@@ -33,7 +37,7 @@
 }
 
 .header__logo_place_header {
-  background-image: url("../images/logo_place_header.svg");
+  background-image: url('../images/logo_place_header.svg');
 
   position: absolute;
   top: 30px;
@@ -95,6 +99,52 @@
   right: 0;
 
   background-color: #2f80ed;
+}
+
+/* Description */
+
+.description {
+  display: flex;
+  justify-content: center;
+}
+
+.two-columns {
+  width: 80%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  width: 175px;
+  margin: 0;
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+
+  color: #2f80ed;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.main-text__paragraph {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+
+  margin: 0 0 30px;
+}
+
+.main-text__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.span-accent {
+  font-weight: 700;
 }
 
 /* и элемента с модификатором вида ключ-значение */
