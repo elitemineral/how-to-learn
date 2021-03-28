@@ -104,6 +104,8 @@
 /* Description */
 
 .description {
+  margin-bottom: 100px;
+
   display: flex;
   justify-content: center;
 }
@@ -131,7 +133,7 @@
   min-width: 784px;
 }
 
-.main-text__paragraph {
+.two-columns__paragraph {
   font-size: 24px;
   font-weight: 400;
   line-height: 34px;
@@ -139,11 +141,11 @@
   margin: 0 0 30px;
 }
 
-.main-text__paragraph:last-child {
+.two-columns__paragraph:last-child {
   margin-bottom: 0;
 }
 
-.span-accent {
+.two-columns__span-accent {
   font-weight: 700;
 }
 
