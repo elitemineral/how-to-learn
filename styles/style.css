@@ -217,7 +217,7 @@
 .feynman__title {
   max-width: 648px;
   margin: 0 auto 70px;
-
+  
   text-align: center;
 
   font-size: 120px;
@@ -271,10 +271,16 @@
 }
 
 .section-title_theme_dark {
+  position: relative;
+  z-index: 1;
+
   color: #fff;
 }
 
 .section-subtitle_theme_dark {
+  position: relative;
+  z-index: 1;
+
   color: #fff;
 }
 
