@@ -6,5 +6,9 @@
   font-weight: 400;
   line-height: 42px;
 
-  vertical-align: top;
+  transition: opacity 0.2s linear;
+}
+
+.khan__buy-link:hover {
+  opacity: 0.5;
 }
